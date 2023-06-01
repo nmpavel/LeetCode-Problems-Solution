@@ -7,7 +7,7 @@ public:
         {
             valid.push_back(s);
             return;
-        }
+        } 
         if(open>0)
         {
             s.push_back('(');
