@@ -12,7 +12,7 @@ public:
                     st.push(a+b);
                 } else if(ch=="*"){
                     int a = st.top();
-                    st.pop();
+                    st.pop(); 
                     int b= st.top();
                     st.pop();
                     st.push(a*b);
