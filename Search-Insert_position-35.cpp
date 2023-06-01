@@ -6,7 +6,7 @@ public:
         l=0;
         if(target>nums[h-1]){
             return h;
-        }
+        } 
         while(l<=h){
             mid=(h+l)/2;
             if(nums[mid]==target){
