@@ -6,7 +6,7 @@ public:
     MinStack() {
         
     }
-    
+   
     void push(int val) {
      if(st.empty()){
          st.push(val);
